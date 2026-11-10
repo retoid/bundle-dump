@@ -35,3 +35,8 @@ Requires Java 21.
 ```
 
 The jar is written to `build/libs/`.
+
+## License
+
+Bundle Dump is licensed under the [GNU Lesser General Public License v3.0](COPYING.LESSER) (LGPL-3.0-only),
+which builds on the [GNU General Public License v3.0](COPYING).

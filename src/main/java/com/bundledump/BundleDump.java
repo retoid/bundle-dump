@@ -6,8 +6,8 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
 
 /**
- * Client-only mod entry point. Shift + left-click a bundle in any container screen
- * to dump its contents into the empty slots of the inventory the bundle sits in.
+ * Client-only mod entry point. Shift + right-click a bundle in any container screen
+ * to unload its contents into the inventory the bundle sits in.
  */
 @Mod(value = BundleDump.MOD_ID, dist = Dist.CLIENT)
 public final class BundleDump {

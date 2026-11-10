@@ -1,6 +1,7 @@
 modLoader="javafml"
 loaderVersion="[1,)"
-license="All Rights Reserved"
+license="${mod_license}"
+issueTrackerURL="${mod_issues_url}"
 
 [[mods]]
 modId="${mod_id}"
@@ -8,6 +9,10 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
+displayURL="${mod_url}"
+logoFile="logo.png"
+# Pixel-art logo: keep it sharp in the mod list.
+logoBlur=false
 # Client-only: servers don't need this mod, and it never blocks joining a server.
 displayTest="IGNORE_ALL_VERSION"
 
