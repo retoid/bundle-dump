@@ -4,3 +4,7 @@ run/
 out/
 .idea/
 *.iml
+
+# Built jars and loose files in the project root
+/*.jar
+/Bundle Dump Icon.png
